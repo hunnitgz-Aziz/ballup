@@ -41,7 +41,7 @@ function App() {
   return (
     <Body>
       <Frame>
-        <SideMenu open={open} setOpen={setOpen} />
+        {/* <SideMenu open={open} setOpen={setOpen} /> */}
         <Container open={open} setOpen={setOpen}>
           <Header>
             <Menu open={open} setOpen={setOpen} />
